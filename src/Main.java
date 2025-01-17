@@ -85,7 +85,7 @@ public class Main {
             int frequency = 79;
             int currentYears = 2025; // текущий год
             int lastYears = currentYears - 200; // год 200 лет до текущего
-            int futureYears = 2125; // год через 100 лет от текущего
+            int futureYears = currentYears + 100; // год через 100 лет от текущего
             while (lastYears <= futureYears) {
                 if (lastYears % frequency == 0) {
                     System.out.println(lastYears);
