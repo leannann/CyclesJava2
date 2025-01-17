@@ -83,8 +83,9 @@ public class Main {
             // Task 8
             System.out.println("Задача 8");
             int frequency = 79;
-            int lastYears = 1825;
-            int futureYears = 2125;
+            int currentYears = 2025; // текущий год
+            int lastYears = currentYears - 200; // год 200 лет до текущего
+            int futureYears = 2125; // год через 100 лет от текущего
             while (lastYears <= futureYears) {
                 if (lastYears % frequency == 0) {
                     System.out.println(lastYears);
